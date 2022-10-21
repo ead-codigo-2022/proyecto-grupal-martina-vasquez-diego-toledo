@@ -1,27 +1,15 @@
-# proyecto-final-starter
-Proyecto final Diseño desde el Código 2022 e[ad].pucv
 
-## En qué consiste
+# Ejercicio de inicio con Bootstrap
+Elaborar un landing page utilizado la [documentación oficial de Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/). El archivo <code>index.html</code> tiene vinculada la hoja de estilos y archivo javascript para componentes que lo requieran. No es requerido personalizar los estilos que entrega el framework, pero pueden hacerlo opcionalmente creando una hoja de estilos separada.
 
-* Grupos de 2 o 3 personas
-* Ponderación: 35% de evaluación final
-* Clase práctica + apoyo en trabajos: 21 octubre
-* Fecha de entrega: 28 octubre
-* Metodología de trabajo: Github Classroom
-* Formato de entrega: URL publicada en [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+## Contenidos requeridos
+* Header con el nombre del sitio + Menú con 5 elementos
+* Destacado principal: Título + descripción + botón de acción
+* Sección con 4 tarjetas de contenido
+* Galeria de fotos en carrusel con 4 fotos
+* Formulario de suscripción a newsletter: Nombre / Correo / Botón enviar 
+* Footer con el nombre de los participantes
 
-## De qué se trata
-
-* Diseñar y construir un sitio web sobre una problemática medioambiental/social
-* Construir un relato con links externos, textos, imágenes
-* Incluir la presentación de los autores
-* Debe considerar un mínimo de 10 documentos html vinculados entre sí
-
-## Cómo se evaluará
-
-* Validación de código
-* Uso semántico de etiquetas HTML
-* Accesibilidad
-* Responsividad
-* Orden y reutilización
-* Nivel de dificultad
+## Objetivos
+* Conocer la herramienta y como operan en general los frameworks
+* Trabajar en grupo utilizando git: subir y traer cambios

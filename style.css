@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
@@ -56,12 +57,32 @@ nav ul {
 }
 
 
+<<<<<<< Updated upstream
+=======
+nav ul li a {
+  display: flex; 
+  flex-direction: row;
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+
+>>>>>>> Stashed changes
 nav ul li {
   float: right;
   text-align: right;
 }
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 em {
   position: static;
   margin: auto;
@@ -87,6 +108,8 @@ em {
   padding: 1rem;
   margin-top: 30px;
 }
+
+
 
 h1 {
   width:500px;
@@ -121,3 +144,4 @@ h3{
 a{
   color: black;
 }
+

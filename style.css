@@ -2,35 +2,44 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 body {
-    font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 .icon-embed2 {
-    width: 1.25em;
+  width: 1.25em;
 }
 
 
 header {
-    background: rgb(0, 0, 0);
-    width: auto ;
-    margin: 0px;
-    z-index: 1px;
-    display: flex;
-    justify-content: space-between;
+  background: rgb white;
+  width: auto;
+  margin: 0px;
+  z-index: 1px;
+  display: flex;
+  justify-content: space-between;
 
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(auto, 240px) 1fr;
+  grid-template-rows: 100px auto 100px;
+  max-width: 90%;
+  height: 100vh;
+  margin: auto;
 }

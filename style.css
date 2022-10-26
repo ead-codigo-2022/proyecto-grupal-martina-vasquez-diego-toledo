@@ -57,8 +57,7 @@ nav ul {
 }
 
 
-<<<<<<< Updated upstream
-=======
+
 nav ul li a {
   display: flex; 
   flex-direction: row;
@@ -72,17 +71,14 @@ nav ul {
 }
 
 
->>>>>>> Stashed changes
+
 nav ul li {
   float: right;
   text-align: right;
 }
 
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 em {
   position: static;
   margin: auto;

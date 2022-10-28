@@ -146,10 +146,19 @@ a{
   color: black;
 }
 
-footer{
 
-background: black;
-color:white;
-font-size: 7px;
+footer {
+  background: black;
+  color:white;
+  font-size: 7px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
+
+}
+
+.h_footer{
+  font-size: medium;
+  text-align: start;
 }

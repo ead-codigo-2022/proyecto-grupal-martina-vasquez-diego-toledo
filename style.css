@@ -35,7 +35,7 @@ body {
 }
 
 header {
-  background: rgba(241, 219, 210, 0.507);
+  background: rgb(241, 219, 210);
   width: auto;
   margin: 0px;
   z-index: 40px;
@@ -114,7 +114,7 @@ h1 {
 }
 
 h2 {
-  background: rgba(241, 219, 210, 0.507);
+  background: rgb(241, 219, 210);
   line-height: 27px;
   margin: 0.3em;
 }

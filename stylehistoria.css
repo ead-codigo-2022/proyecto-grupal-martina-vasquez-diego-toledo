@@ -114,6 +114,12 @@ img {
 	max-width: 100%;
 }
 
+@media only print {
+	img {
+
+
+	}
+}
 
 	
 .collection-content {
@@ -238,7 +244,7 @@ a img {
 	margin: 10px;
 }
 
-.imag .imag2{
+.imag {
 	display: flex;
 	justify-content: center;
 }

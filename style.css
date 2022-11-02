@@ -117,7 +117,6 @@ em {
 }
 
 
-
 h1 {
   width:500px;
   margin: 0 auto;
@@ -189,7 +188,7 @@ footer{
 
 .content-foo h4{
   color: rgb(0, 0, 0);
-  border-bottom: 3px solid #af20d3;
+  border-bottom: 3px solid #000000;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }

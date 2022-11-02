@@ -6,14 +6,20 @@
 	box-sizing: border-box;
 }
 
+header {
+	width: 100%;
+	height: 250px;
+	background: rgb(241, 219, 210);
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgb(241, 219, 210), rgb(241, 219, 210));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgb(241, 219, 210), rgb(241, 219, 210));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+  }
 
-header{
-	display: grid;
-	grid-column: 1/3;
-	grid-row: 1/3;
-	background-color: rgb(241, 219, 210);
-	max-height: 53px;
-}
 
 body {
     color: rgb(55, 53, 47);
@@ -176,4 +182,8 @@ p {
 	background: rgb(241, 219, 210);
 	max-height:50px ;
 }
-
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

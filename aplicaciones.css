@@ -5,12 +5,24 @@
 	
 }
 
-header{
-	display: grid;
-	grid-column: 1/3;
-	grid-row: 1/3;
-	background-color: rgb(241, 219, 210);
-	max-height: 53px;
+header {
+	width: 100%;
+	height: 250px;
+	background: rgb(241, 219, 210);
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgb(241, 219, 210), rgb(241, 219, 210));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgb(241, 219, 210), rgb(241, 219, 210));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 body {
     color: rgb(55, 53, 47);
@@ -114,6 +126,8 @@ footer{
 	margin-top: -3px;
 
 }
+
+  
 .back figure{
 	position:relative;
 	margin-top: -18px;
@@ -135,8 +149,6 @@ footer{
 	opacity: 0;
 	visibility: hidden;
 	max-height: 50px;
-	max-width: 50px;
-	
 }
 .back figure:hover > .capa {
 	opacity: 1;
@@ -153,11 +165,34 @@ footer{
 	transition: all 400ms ease-out;
 	margin-top: 50px;
 	background: rgb(241, 219, 210);
-	max-height:50px;
-	max-width: 50px;
+	max-height:50px ;
 }
+
 .inicio{
 	max-width: 50px;
 	max-height: 50px;
 
+}
+ 
+.galeria-port{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+  
+.imagen-port{
+	width: 35%;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+
+}
+  
+  .imagen-port > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	border-radius: 6px;
+	border: 4px solid rgb(245, 209, 195);
 }

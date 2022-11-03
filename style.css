@@ -39,9 +39,9 @@ header {
   height: 450px;
   background: #5b4ebc;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgb(241, 219, 210, 0.459), rgb(241, 219, 210, 0.259)), url(../img/arq.jpg);
+  background: -webkit-linear-gradient(to right, rgb(241, 219, 210, 0.459), rgb(241, 219, 210, 0.259)), url(./img/arq.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgb(241, 219, 210, 0.659), rgb(241, 219, 210, 0.259)), url(../img/arq.jpg);
+  background: linear-gradient(to right, rgb(241, 219, 210, 0.659), rgb(241, 219, 210, 0.259)), url(./img/arq.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
